@@ -612,10 +612,10 @@ class WHP_Modern_Related_Posts_Settings {
 			return;
 ?>
 <style type="text/css">
-	#modern-related-posts { float: left; }
-	#mrp-sidebar { float: right; margin-top: 20px; margin-right: 10px;}
+	#modern-related-posts { float: left; max-width: 70%; }
+	#mrp-sidebar { float: right; margin-top: 45px; margin-right: 10px;}
 	#mrp-sidebar .item { margin-bottom: 20px; }
-	#mrp-sidebar .donate form { text-align: left; }
+	#mrp-sidebar .donate form { text-align: center; }
 	#mrp-sidebar .themeforest img, #mrp-sidebar .codecanyon img { width: 200px; height: auto; }
 </style>
 <?php
