@@ -578,7 +578,7 @@ class WHP_Modern_Related_Posts_Settings {
 			esc_attr( $this->get_field_val( $name ) )
 		);
 		
-		$this->field_des( __( 'Maybe some themes has not set the variable $content_width or incorrect value. Enter the correct value to fix it if the image size displayed incorrectly.<br>See <a href="http://codex.wordpress.org/Content_Width" target="_blank">http://codex.wordpress.org/Content_Width</a>', 'mhpmrp' ) );
+		$this->field_des( __( 'Maybe some themes has not set the variable $content_width or incorrect value. Enter the correct value to fix it if the slider layout displayed incorrectly.<br>See <a href="http://codex.wordpress.org/Content_Width" target="_blank">http://codex.wordpress.org/Content_Width</a>', 'mhpmrp' ) );
 	}
 	
 	/**
