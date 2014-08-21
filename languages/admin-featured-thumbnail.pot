@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin Featured Thumbnail\n"
+"POT-Creation-Date: 2014-08-20 13:37+0800\n"
+"PO-Revision-Date: 2014-08-20 13:37+0800\n"
+"Last-Translator: wphigh.com <wphigh@hotmail.com>\n"
+"Language-Team: wphigh.com <wphigh@htomail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../class-settings.php:79 ../class-settings.php:93
+msgid "Modern Related Posts"
+msgstr ""
+
+#: ../class-settings.php:118
+msgid "General"
+msgstr ""
+
+#: ../class-settings.php:119
+msgid "Appearance"
+msgstr ""
+
+#: ../class-settings.php:120
+msgid "Debug"
+msgstr ""
+
+#: ../class-settings.php:123
+msgid "Posts Number"
+msgstr ""
+
+#: ../class-settings.php:124
+msgid "Orderby"
+msgstr ""
+
+#: ../class-settings.php:125
+msgid "Related Via"
+msgstr ""
+
+#: ../class-settings.php:128
+msgid "Margin Top"
+msgstr ""
+
+#: ../class-settings.php:129
+msgid "Margin Bottom"
+msgstr ""
+
+#: ../class-settings.php:130
+msgid "Title"
+msgstr ""
+
+#: ../class-settings.php:131
+msgid "Title Size"
+msgstr ""
+
+#: ../class-settings.php:132
+msgid "Number of visible"
+msgstr ""
+
+#: ../class-settings.php:133
+msgid "Aspect Ratio"
+msgstr ""
+
+#: ../class-settings.php:134
+msgid "Background Color"
+msgstr ""
+
+#: ../class-settings.php:135
+msgid "Hover Background Color"
+msgstr ""
+
+#: ../class-settings.php:136
+msgid "Link Size"
+msgstr ""
+
+#: ../class-settings.php:137
+msgid "Navigation Background Color"
+msgstr ""
+
+#: ../class-settings.php:138
+msgid "Auto Play"
+msgstr ""
+
+#: ../class-settings.php:141
+msgid "Content Width"
+msgstr ""
+
+#: ../class-settings.php:292
+msgid "Enter the number of related posts."
+msgstr ""
+
+#: ../class-settings.php:309
+msgid "Date"
+msgstr ""
+
+#: ../class-settings.php:311
+msgid "Random"
+msgstr ""
+
+#: ../class-settings.php:329
+msgid "Categories"
+msgstr ""
+
+#: ../class-settings.php:331
+msgid "Tags"
+msgstr ""
+
+#: ../class-settings.php:334
+msgid ""
+"If you select categories, then by current post's categories to find related "
+"posts."
+msgstr ""
+
+#: ../class-settings.php:421
+msgid ""
+"Set the maximum amount of items displayed at a time with the widest browser "
+"width."
+msgstr ""
+
+#: ../class-settings.php:440
+msgid "e.g. 4:3"
+msgstr ""
+
+#: ../class-settings.php:459
+msgid "Displayed when the post has not attached pictures."
+msgstr ""
+
+#: ../class-settings.php:478
+msgid "the background color when the mouse hover."
+msgstr ""
+
+#: ../class-settings.php:550
+msgid ""
+"Maybe some themes has not set the variable $content_width or incorrect "
+"value. Enter the correct value to fix it if the image size displayed "
+"incorrectly.<br>See <a href=\"http://codex.wordpress.org/Content_Width\" "
+"target=\"_blank\">http://codex.wordpress.org/Content_Width</a>"
+msgstr ""
+
+#: ../modern-related-psots.php:114
+msgid "Settings"
+msgstr ""
+
+#: ../modern-related-psots.php:136
+msgid "Buy Me A Beer"
+msgstr ""

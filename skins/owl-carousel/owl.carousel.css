@@ -1,0 +1,213 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 99%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+
+/* 
+ *  Custom
+ */
+.whp-modern-related-posts .mrpc-carousel {
+	position: relative;
+}
+
+.whp-modern-related-posts .owl-item {
+	/*margin-right: 10px;*/
+}
+
+.whp-modern-related-posts .mrpc-item {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+.whp-modern-related-posts .mrpc-item .mrpc-overlay {
+	position: absolute;
+	content: '';
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	z-index: 2;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+}
+
+.whp-modern-related-posts .mrpc-item:hover .mrpc-overlay {
+	opacity: 0.7;
+	filter: Alpha( opacity = 70 );
+}
+
+.whp-modern-related-posts .mrpc-item img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	margin: 0;
+	padding: 0;
+}
+
+.whp-modern-related-posts .mrpc-item:hover img {
+	transform: scale( 1.1 );
+	-webkit-transform: scale( 1.1 );
+	-ms-transform: scale( 1.1 );
+	-moz-transform: scale( 1.1 );
+	-o-transform: scale( 1.1 );
+}
+
+.whp-modern-related-posts .mrpc-link {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.whp-modern-related-posts .mrpc-item a,
+.whp-modern-related-posts .mrpc-item a:active,
+.whp-modern-related-posts .mrpc-item a:visited,
+.whp-modern-related-posts .mrpc-item a:hover {
+	color: #fff !important;
+	text-decoration: none;
+	position: relative;
+	z-index: 3;
+	display: inline-block;
+	width: 95%;	
+}
+
+@font-face {
+	font-family: 'mrpc-font';
+	src: url('font/angle-right.eot?3531915');
+	src: url('font/angle-right.eot?3531915#iefix') format('embedded-opentype'),
+		url('font/angle-right.woff?3531915') format('woff'),
+		url('font/angle-right.ttf?3531915') format('truetype'),
+		url('font/angle-right.svg?3531915#angle-right') format('svg');
+}
+
+.whp-modern-related-posts .owl-next {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;	
+	background-color: black;
+	font-family: "mrpc-font";
+	font-style: normal;
+	font-size: 14px;
+	font-weight: normal;
+	speak: none;
+	display: inline-block;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;
+	color: white;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -15px;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	opacity: 0;
+	filter: alpha( opacity = 0 );
+	z-index: 4;
+	vertical-align: top;
+}
+
+.whp-modern-related-posts .owl-next:before {
+	content: '\e800';
+	vertical-align: -10%\9\0;	/* ie9 */
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { /* ie10, ie11+ */
+	.whp-modern-related-posts .owl-next:before {
+		vertical-align: -10%;
+	}
+}
+
+.whp-modern-related-posts .mrpc-carousel:hover .owl-next {
+	opacity: 0.7;
+	filter: alpha( opacity = 70 );
+}
+
+.whp-modern-related-posts .mrpc-carousel .owl-next:hover {
+	opacity: 1;
+	filter: alpha( opacity = 100 );	
+}
