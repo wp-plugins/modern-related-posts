@@ -86,7 +86,7 @@ class WHP_Modern_Related_Posts_Skins_Carousel {
 			return wp_get_attachment_image( $attachment_id, $size );
 		}
 		else {
-			$preg = "/(<img )([^>]*)(>)/"; 
+			$preg = "/<img.*?>/i"; 
 			$content = $post -> post_content;
 			preg_match( $preg, $content, $img );
 			if( isset( $img[0] ) && $img[0] )
