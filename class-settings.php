@@ -98,11 +98,16 @@ class WHP_Modern_Related_Posts_Settings {
 			settings_fields( $this->option_group );
 			do_settings_sections( $this->sections_page );
 			submit_button(); 
+			$this->metas();
 		?>
 	</form>
 </div>
 <?php
 	$this->sidebar();	
+	}
+	
+	private function metas() {
+		echo '<div id="mrp-metas"><a class="mrp-meta-doc" href="http://www.wphigh.com/portfolio/modern-related-posts" target="_blank">Documentation</a><a class="mrp-meta-feedback" href="http://www.wphigh.com/portfolio/modern-related-posts#respond" target="_blank">Feedback</a></div>';
 	}
 	
 	/**
@@ -617,6 +622,7 @@ class WHP_Modern_Related_Posts_Settings {
 	#mrp-sidebar .item { margin-bottom: 20px; }
 	#mrp-sidebar .donate form { text-align: center; }
 	#mrp-sidebar .themeforest img, #mrp-sidebar .codecanyon img { width: 200px; height: auto; }
+	#mrp-metas a { margin-right: 40px; }
 </style>
 <?php
 	}			
