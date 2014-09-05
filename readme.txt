@@ -3,7 +3,7 @@ Contributors: wphigh
 Tags: related posts, beautiful related posts, custom related posts, slide posts, related, links, thumbnail, thumbnail related posts, similar, similar posts, recommend posts, associate, associate posts 
 Donate link: http://www.wphigh.com
 Requires at least: 3.5
-Tested up to: 3.9.2
+Tested up to: 4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
