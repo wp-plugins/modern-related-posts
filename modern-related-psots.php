@@ -3,7 +3,7 @@
 Plugin Name: Modern Related Posts
 Plugin URI: http://www.wphigh.com/portfolio/modern-related-posts
 Description: A beautiful, modern, animated, responsive Related Posts Plugin.
-Version: 1.0.0
+Version: 1.0.1
 Author: wphigh
 Author URI: http://www.wphigh.com
 License: GPLv2 or later

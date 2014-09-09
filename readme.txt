@@ -27,5 +27,8 @@ A beautiful, modern, animated, responsive Related Posts Plugin.
 
 == Changelog ==
 
+= 1.0.1 =
+* Translated into Turkish. Thanks Dr Abdullah Manaz.
+
 = 1.0.0 =
 * Release.
