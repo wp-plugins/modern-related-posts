@@ -17,6 +17,8 @@ A beautiful, modern, animated, responsive Related Posts Plugin.
 * Provide a lot of options to set, flexible configuration appearance.
 * Display related posts via categories, tags or customize.
 
+Note: Before I have a file name is spelled wrong, now changed back. If you encounter errors when upgrading plugin, please delete and re-install. Do not worry this will not delete your saved data. I'm sorry to bring you trouble, please understand.
+
 [Read More](http://www.wphigh.com/portfolio/modern-related-posts)
 
 == Screenshots ==
