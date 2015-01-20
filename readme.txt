@@ -3,7 +3,7 @@ Contributors: wphigh
 Tags: related posts, beautiful related posts, custom related posts, slide posts, related, links, thumbnail, thumbnail related posts, similar, similar posts, recommend posts, associate, associate posts 
 Donate link: http://www.wphigh.com
 Requires at least: 3.5
-Tested up to: 4.0
+Tested up to: 4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,8 +16,6 @@ A beautiful, modern, animated, responsive Related Posts Plugin.
 * Touch and drag the slider.
 * Provide a lot of options to set, flexible configuration appearance.
 * Display related posts via categories, tags or customize.
-
-Note: Before I have a file name is spelled wrong, now changed back. If you encounter errors when upgrading plugin, please delete and re-install. Do not worry this will not delete your saved data. I'm sorry to bring you trouble, please understand.
 
 [Read More](http://www.wphigh.com/portfolio/modern-related-posts)
 
